@@ -1,0 +1,7 @@
+# robots.txt for noa-esperanza.app
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Sitemap: https://noa-esperanza.app/sitemap.xml
