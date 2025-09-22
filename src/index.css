@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom classes */
+body {
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
+
+a {
+  @apply text-blue-500 hover:underline;
+}
