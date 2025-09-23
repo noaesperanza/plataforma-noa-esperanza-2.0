@@ -4,6 +4,9 @@ import Home from "./pages/Home";
 import NoaChatPage from "./pages/NoaChatPage";
 import DashboardPaciente from "./pages/DashboardPaciente";
 import DashboardMedico from "./pages/DashboardMedico";
+import DashboardProfissional from "./pages/DashboardProfissional";
+import AdminDashboard from "./pages/AdminDashboard";
+import RelatorioNarrativo from "./pages/RelatorioNarrativo";
 import Configuracoes from "./pages/Configuracoes";
 import Perfil from "./pages/Perfil";
 import NotFound from "./pages/NotFound";
@@ -21,6 +24,11 @@ export default function AppRoutes() {
         {/* Dashboards */}
         <Route path="/paciente" element={<DashboardPaciente />} />
         <Route path="/medico" element={<DashboardMedico />} />
+        <Route path="/profissional" element={<DashboardProfissional />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+
+        {/* Relatório narrativo */}
+        <Route path="/relatorio" element={<RelatorioNarrativo />} />
 
         {/* Configurações e Perfil */}
         <Route path="/config" element={<Configuracoes />} />
