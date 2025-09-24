@@ -10,7 +10,6 @@ import RelatorioNarrativo from "./pages/RelatorioNarrativo";
 import Configuracoes from "./pages/Configuracoes";
 import Perfil from "./pages/Perfil";
 import NotFound from "./pages/NotFound";
-
 export default function AppRoutes() {
   return (
     <Routes>
